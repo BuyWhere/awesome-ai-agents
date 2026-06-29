@@ -754,6 +754,28 @@ Coding, Debugging
 </details>
 
 
+## [BuyWhere](https://buywhere.ai)
+AI-powered shopping agent that finds the best prices across millions of real merchant products
+
+<details>
+
+### Category
+E-Commerce, Shopping, Price Comparison
+
+### Description
+- AI shopping agent that searches across 100M+ real, deduplicated products from verified merchants
+- MCP server for seamless integration with AI coding assistants (Claude, Cursor, etc.)
+- Finds the best prices, deals, and product recommendations across multiple retailers
+- Built-in affiliate partnerships for monetization
+- Open-source MCP server with active community
+
+### Links
+- [Website](https://buywhere.ai)
+- [GitHub](https://github.com/BuyWhere/buywhere-mcp)
+- [MCP Server](https://github.com/BuyWhere/buywhere-mcp)
+
+</details>
+
 ## [Bloop](https://bloop.ai/)
 AI code search, works for Rust and Typescript
 
