@@ -754,28 +754,6 @@ Coding, Debugging
 </details>
 
 
-## [BuyWhere](https://buywhere.ai)
-AI-powered shopping agent that finds the best prices across millions of real merchant products
-
-<details>
-
-### Category
-E-Commerce, Shopping, Price Comparison
-
-### Description
-- AI shopping agent that searches across 100M+ real, deduplicated products from verified merchants
-- MCP server for seamless integration with AI coding assistants (Claude, Cursor, etc.)
-- Finds the best prices, deals, and product recommendations across multiple retailers
-- Built-in affiliate partnerships for monetization
-- Open-source MCP server with active community
-
-### Links
-- [Website](https://buywhere.ai)
-- [GitHub](https://github.com/BuyWhere/buywhere-mcp)
-- [MCP Server](https://github.com/BuyWhere/buywhere-mcp)
-
-</details>
-
 ## [Bloop](https://bloop.ai/)
 AI code search, works for Rust and Typescript
 
@@ -832,6 +810,32 @@ Coding
 - [BondAI Homepage/Documentation](https://bondai.dev)
 - [Github Repository](https://github.com/krohling/bondai)
 - [Docker Image](https://hub.docker.com/r/krohling/bondai)
+
+</details>
+
+## [BuyWhere](https://github.com/BuyWhere/buywhere-mcp?utm_source=directory&utm_medium=referral&utm_campaign=mcp_v2_aug24&utm_content=e2b_awesome_ai_agents)
+AI shopping agent with live product search, price comparison, and affiliate deeplinks
+
+<details>
+
+### Category
+E-commerce / Shopping
+
+### Description
+- Agent-native product catalog API for AI shopping agents — ~370M deduplicated products across 28 countries.
+- v2 search/best-price/deals calls require the end user's ISO country code as `deliver_to`, so results are ranked for products they can actually receive with per-row availability labels.
+- Live price comparison across Shopee, Lazada, Amazon SG/US, Walmart, FairPrice, Carousell, Harvey Norman, and other regional merchants.
+- Auth: OAuth 2.1 client-credentials, or a no-email bearer key in 3 seconds via `POST /v1/auth/register` with `{"agent_name":"<your-agent>"}`. Free tier: 1,000 calls/month.
+- MCP server transport: stdio + streamable-HTTP at `https://api.buywhere.ai/mcp`.
+- v2 tools: `search_products_v2`, `get_product_v2`, `compare_products_v2`, `get_deals_v2`, `find_best_price_v2`. (v1 tools sunset 2026-12-31.)
+- Framework packages: `@buywhere/mcp-server` (npm), `@buywhere/langchain` (npm), `llama-index-tools-buywhere` (PyPI).
+
+### Links
+- [BuyWhere Homepage](https://buywhere.ai?utm_source=directory&utm_medium=referral&utm_campaign=mcp_v2_aug24&utm_content=e2b_awesome_ai_agents)
+- [MCP Server Repository](https://github.com/BuyWhere/buywhere-mcp?utm_source=directory&utm_medium=referral&utm_campaign=mcp_v2_aug24&utm_content=e2b_awesome_ai_agents)
+- [npm: @buywhere/mcp-server](https://www.npmjs.com/package/@buywhere/mcp-server)
+- [PyPI: llama-index-tools-buywhere](https://pypi.org/project/llama-index-tools-buywhere/)
+- [API Documentation](https://api.buywhere.ai/docs/agent-dx?utm_source=directory&utm_medium=referral&utm_campaign=mcp_v2_aug24&utm_content=e2b_awesome_ai_agents)
 
 </details>
 
